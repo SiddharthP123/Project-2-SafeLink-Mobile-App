@@ -13,6 +13,23 @@ Two paired users each wear an ESP32-C3 wristband. Pressing the wristband button 
 - **COMFORT** — short press: gentle check-in, banner notification.
 - **SOS** — long press: urgent alert, local notification, SMS to emergency contacts.
 
+## Hardware:
+
+### Development Process:
+
+| Breadboard Prototype | Exploded Diagram |
+|:---:|:---:|
+| ![Initial breadboard circuit](screenshots/SafeLinkHardwareImage1.png) | ![Exploded diagram of PCB components](screenshots/SafeLinkHardwareImage2.png) |
+| *Initial circuit design on a breadboard before iterative development* | *Exploded view of the soldered components in the final circuit* |
+
+### Final Prototype:
+
+<p align="center">
+  <img src="screenshots/SafeLinkHardwareImage3.png" alt="Final SafeLink wristband prototype" width="300"/>
+</p>
+
+<p align="center"><em>Final wristband prototype, worn on the wrist</em></p>
+
 ## Stack:
 
 - Flutter / Dart — iOS.
@@ -23,7 +40,7 @@ Two paired users each wear an ESP32-C3 wristband. Pressing the wristband button 
 
 ## App Source:
 
-The Flutter app lives in [`safelink_flutter/`](./safelink_flutter), including full setup and deploy instructions in its own README.
+The Flutter app lives in [`safelink_flutter/`](./safelink_flutter), including full setup and deployment instructions in its own README.
 
 ## Team:
 
